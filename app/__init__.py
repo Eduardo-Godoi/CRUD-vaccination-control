@@ -1,5 +1,5 @@
-from flask import Flask 
-from environs import Env 
+from flask import Flask
+from environs import Env
 
 from app.configs import database, migrations
 from app import views
